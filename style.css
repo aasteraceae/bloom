@@ -1,0 +1,64 @@
+body{
+    margin: 0; 
+    position: relative; 
+    /*background-color: rgb(154, 248, 255);*/
+    background-color: white;
+    width: 100%;
+}
+.bodyhorse{
+    height: 300vh;
+}
+.svg__wrapper{
+    height: 100vh;
+    width: 100%; 
+    position: relative;
+}
+.svg__image{
+    position: fixed; 
+    width: 100%; 
+    height:100%; 
+    margin-top: 0; transform-origin: 50% 0% 0px;
+}
+#intro div{
+    background-image:url('./cubes.svg'); 
+    width: 100vw; 
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#static div{
+    background-image:url('./cubes.svg'); 
+    width: 100vw; 
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.horse-wrapper{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.moving__image{
+    position: fixed;
+    width: 200vw; 
+    height: 100vh;
+    margin-left: 100%;
+}
+.moving__image div{
+    height:100vh; 
+    width:100vw; 
+    background-image:url('./stripes.svg'); 
+    background-size: contain;
+}
+.info{
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    bottom: 0;
+    margin-bottom: 10%;
+    background-color: #fafafa;
+    box-shadow: 0 0 16px violet;
+    padding: 6px;
+    border-radius: 40%;
+    transition: opacity 0.5s;
+}
